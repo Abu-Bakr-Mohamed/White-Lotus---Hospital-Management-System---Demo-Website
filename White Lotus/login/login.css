@@ -1,0 +1,118 @@
+body {
+   background-image: url("../Images/medical-banner-with-doctor-wearing-face-mask.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   width: 100vw;
+   height: 100vh;
+   position: relative;
+}
+
+/* Header */
+header {
+   height: 7vh;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   box-shadow: 0 0 20rem 0rem rgba(0, 0, 0, 0.09);
+}
+
+header .contacts {
+   padding-right: 20rem;
+}
+
+header i {
+   color: var(--mainColor);
+   font-size: 20rem;
+   padding-right: 8rem;
+   cursor: pointer;
+   transition: color 0.15s ease-in-out, font-size 0.15s ease-in-out;
+}
+
+header i:hover {
+   color: var(--secDimmed);
+   font-size: 21.5rem;
+}
+
+.logo {
+   font-weight: 900;
+   color: white;
+   font-size: 30rem;
+   padding: 0 50rem;
+   position: relative;
+}
+
+header img {
+   width: 45rem;
+   position: absolute;
+   right: -5rem;
+   top: -2rem;
+}
+
+/* Registration */
+.reg {
+   background-color: rgba(191, 191, 193, 0.749);
+   padding: 40rem;
+   border-radius: 62rem 10rem;
+   box-shadow: 0 0 10rem rgba(0, 0, 0, 0.1);
+   position: absolute;
+   top: 36%;
+   left: 13%;
+   color: var(--mainColor);
+   width: 375rem;
+   height: 430rem;
+}
+
+h2 {
+   text-align: center;
+   padding-bottom: 25rem;
+   font-size: 35rem;
+}
+
+#login-form {
+   max-width: 350rem;
+   padding: 10rem;
+}
+
+.form-group {
+   margin-bottom: 20rem;
+}
+
+.form-group label {
+   display: block;
+   margin-bottom: 5rem;
+}
+
+.form-group input {
+   width: 100%;
+   padding: 8rem;
+   border: 1rem solid #ccc;
+   border-radius: 5rem;
+   box-shadow: var(--inputShadow);
+}
+
+button {
+   width: 100%;
+   padding: 10rem;
+   background-color: var(--secColor);
+   color: #fff;
+   border-radius: 3rem;
+   transition: var(--buttonTrans);
+}
+
+button:hover {
+   background-color: var(--secDimmed);
+}
+
+.go-signup {
+   text-align: center;
+   font-size: 14rem;
+   margin-top: 6rem;
+}
+
+.go-signup a {
+   color: var(--secColor);
+}
+.go-signup a:hover {
+   color: var(--secDimmed);
+}

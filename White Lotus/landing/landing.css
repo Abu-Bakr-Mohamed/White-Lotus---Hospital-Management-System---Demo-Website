@@ -1,0 +1,160 @@
+/* Main */
+main {
+   background: url("../Images/pexels-karolina-grabowska-4386466.jpg")
+      center/cover no-repeat;
+   height: 100vh;
+   position: relative;
+}
+
+/* Header */
+header {
+   height: 7vh;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   box-shadow: 0 0 20rem 0rem rgba(0, 0, 0, 0.09);
+}
+
+header .contacts {
+   padding-right: 20rem;
+}
+
+header i {
+   color: var(--mainColor);
+   font-size: 20rem;
+   padding-right: 8rem;
+   cursor: pointer;
+   transition: color 0.15s ease-in-out, font-size 0.15s ease-in-out;
+}
+
+header i:hover {
+   color: var(--secDimmed);
+   font-size: 21.5rem;
+}
+
+.logo {
+   font-weight: 900;
+   color: white;
+   font-size: 30rem;
+   padding: 0 50rem;
+   position: relative;
+}
+
+header img {
+   width: 45rem;
+   position: absolute;
+   right: -5rem;
+   top: -2rem;
+}
+
+/* Landing */
+.landing {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 93vh;
+   position: relative;
+}
+
+h1 {
+   color: var(--mainColor);
+   font-size: 60rem;
+}
+
+p {
+   font-size: 18rem;
+}
+
+.welcome-message {
+   position: absolute;
+   top: 25%;
+   padding: 10rem 15rem;
+   text-align: center;
+}
+
+.sign-in-btn {
+   background-color: #40e6f6cf;
+   color: white;
+   padding: 16rem 45rem;
+   border: none;
+   border-radius: 5rem;
+   font-size: 18rem;
+   font-weight: bold;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+   margin-top: 28rem;
+   letter-spacing: 1.6rem;
+}
+
+.sign-in-btn:hover {
+   background-color: var(--secDimmed);
+}
+
+/* Features */
+.features {
+   padding: var(--sectionPadding) 0;
+}
+
+.features .container {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300rem, 1fr));
+   gap: 20rem;
+   padding: 60rem 0;
+}
+
+.features .feat {
+   padding: 20rem;
+   text-align: center;
+}
+
+.features .feat i {
+   font-size: 50rem;
+   color: var(--secColor);
+}
+
+.features .feat h3 {
+   padding: 10rem 0;
+   font-weight: 800;
+   margin: 25rem 0;
+   font-size: 20rem;
+}
+
+.features .feat p {
+   line-height: 1.8;
+   font-size: 17rem;
+}
+
+/* About */
+.about {
+   padding: var(--sectionPadding) 0;
+   background-color: rgb(248, 248, 248);
+}
+
+.about .about-content {
+   display: grid;
+   grid-template-columns: 40% auto;
+   padding: 60rem 10rem;
+}
+
+.about .about-content .image {
+   position: relative;
+   width: 250rem;
+   height: 375rem;
+}
+
+.about .about-content .text p:first-child {
+   line-height: 2;
+   font-weight: 800;
+   margin-bottom: 50rem;
+}
+
+.about .about-content .text hr {
+   border-color: var(--secColor);
+   height: 3rem;
+   margin-bottom: 20rem;
+   width: 55%;
+}
+
+.about .about-content .text p:last-of-type {
+   line-height: 2;
+}
